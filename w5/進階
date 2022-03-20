@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset-"utf-8">
+        <title>bootstrap網站</title>
+        <style>
+        header {display:block; clear:both; padding:5px; text-align:left} 
+        footer {display:block; clear:both; padding:5px; text-align:left}
+        nav {display:block; height:100%; background:DodgerBlue; padding:5px; color:white}
+        article {display:block; clear; float:left; width:80%; height:100%}
+        aside {float:right; width:32%; height:300px; background:aqua;}
+        </style>
+    </head>
+<body>
+    <nav>
+       日光美食部落　首頁　新增文章　管理後台　站長日記　<input value="輸入美食或餐廳"><input type="submit" value="搜尋">
+    </nav>
+    
+    <header>
+        <h1>日光美食部落</h1>
+        <h2>找美食、拍美食、吃美食、寫美食，趕快加入我們的行列吧!</h2>
+        
+    </header>
+    <hr>
+    <article>
+        <h2>老屋·慢食·樂埔町Leputing</h2>
+        <picture>
+  <img width="50%" src="img_girl.jpg">
+</picture>
+    </article>
+    <aside>
+        <ul>
+            <li><a href="poem1.html">廣告連結1</a></li>
+            <li><a href="poem2.html">廣告連結2</a></li>
+            <li><a href="poem3.html">廣告連結3</a></1i>
+            <li><a href="poem2.html">廣告連結4</a></li>
+            <li><a href="poem3.html">廣告連結5</a></1i>
+        </ul>
+    </aside>
+    <footer>
+    <hr>
+        <main><p><small>©2020日光多媒體．隱私權政策．服務條款</small></p></main>
+    </footer>
+    
+    
+</body>
+</html>
