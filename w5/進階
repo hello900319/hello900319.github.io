@@ -29,17 +29,19 @@
 </picture>
     </article>
     <aside>
-        <ul>
-            <li><a href="poem1.html">廣告連結1</a></li>
-            <li><a href="poem2.html">廣告連結2</a></li>
-            <li><a href="poem3.html">廣告連結3</a></1i>
-            <li><a href="poem2.html">廣告連結4</a></li>
-            <li><a href="poem3.html">廣告連結5</a></1i>
-        </ul>
+        <pre><ul>
+            <a href="poem1.html">廣告連結1</a>
+            <a href="poem2.html">廣告連結2</a>
+            <a href="poem3.html">廣告連結3</a>
+            <a href="poem2.html">廣告連結4</a>
+            <a href="poem3.html">廣告連結5</a>
+        </ul></pre>
     </aside>
     <footer>
     <hr>
+    <ul>
         <main><p><small>©2020日光多媒體．隱私權政策．服務條款</small></p></main>
+    </ul>
     </footer>
     
     
