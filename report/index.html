@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>網頁名稱</title>
+<style>
+
+#nav1 {position: absolute; width:140px; height: 130px; background:yellow; padding:14px; border-radius:8px;
+   margin-top: 45px; margin-left: 10px;}
+
+#a1{ text-decoration:underline; line-height:2; color:black} 
+#a1:hover{ text-decoration:none}
+
+
+
+#table{position: absolute; margin-left: 10px; margin-top: 12cm; list-style-type:none; }
+#td:hover{background:#f0e68c}
+#td{text-align:center;; border-width:3px;padding:10px;background:yellow; width:165px; height:15px; display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1rem;
+    text-decoration: none;  /* 移除超連結底線 */
+    line-height:15px}
+
+
+.nav2{display:block; width: 100; height: 10;; position: absolute; right: 10%; top: 0;}
+
+
+
+
+
+
+#a2{ text-decoration:none; line-height:2; color:black} 
+#a2:hover{ text-decoration:underline}
+
+.submit{
+   position: absolute; 
+   background:yellow; 
+   padding:14px; 
+   border-radius:8px;
+   margin-top: 120px; 
+   margin-left: 510px; 
+   width:160px; 
+   height: 55px; 
+   border: none;
+}
+.submit:hover{background:#f0e68c}
+
+form{
+   display: inline-block; 
+   position: absolute; 
+   margin-left: 23.5%; 
+   margin-top: 1.7cm; 
+   width: 40%; 
+   height: 80%; 
+   font-size: 18px; 
+   background-color: #e3e1cb; 
+   line-height: 35px; 
+   text-align:left; 
+   padding-left: 55px; 
+   padding-top: 30px; 
+}
+
+  
+</style>
+
+</head>
+
+<body>
+
+<nav id=nav1>
+<ul style="list-style-type:circle">
+<li><a id="a1" href="hello900319.github.io/kiwi.html">我的帳號</a></li> 
+<li><a id="a1" href="hello900319.github.io/kiwi.html">資料卡</a></li>
+<li><a id="a1" href="hello900319.github.io/kiwi.html">客服</a></li>
+</ul>
+</nav>
+
+
+
+
+
+<div id="table" >
+<a href="常見QA.html" id="td">常見QA</a>
+<a href="操作方式、關於.html" id="td">操作方式</a>
+<a href="網站守則、公約.html" id="td">網站守則、公約</a>
+</div>
+
+<nav>
+</nav>
+
+
+<form action="408125019_action" autocomplete="on">
+  <p><我的帳號></p>
+
+   <p>
+   <label for="text">名字:</label>
+   <input type="text" name="username" placeholder="e.g.王小明" size="10"  required><br>
+   </p>
+
+   <p>
+      <label for="text">身份字號:</label>
+      <input type="text" name="personal ID" placeholder="e.g. A123456789" size="20"  required><br> <!--還沒設置輸入規則-->
+      </p>
+
+   <p>
+   <label for="birthday">生日:</label>
+   <input type="date" name="birthday" required>
+   </p>
+  
+   <p>
+    <label for="text">生理性別:</label>
+    <input type="radio" name="gender" value="male" required>男
+    <input type="radio" name="gender" value="female" required>女
+    <input type="radio" name="gender" value="other" required>其他
+    <input type="text" name="gender" placeholder="" size="13">
+   </p>
+
+   <p>
+      <label for="text">心理性別：</label>
+      <input type="radio" name="gender" value="male" required>男
+      <input type="radio" name="gender" value="female" required>女
+      <input type="radio" name="gender" value="other" placeholder="" size="13" required>其他
+      <input type="text" name="gender" placeholder="" size="13">
+   </p>
+
+   <p>
+      <label for="text">性向：</label>
+      <input type="radio" name="gender" value="male" required>男
+      <input type="radio" name="gender" value="female" required>女
+      <input type="radio" name="gender" value="other" placeholder="" size="13" required>其他
+      <input type="text" name="gender" placeholder="" size="13">
+   </p>
+
+      <input class="submit" type="submit" value="儲存" align=center>
+
+
+</form>
+
+
+
+<div class=nav2>
+    <a id="a2" href="通知.html" >通知</a><space>
+        &emsp;&emsp;
+    <a id="a2" href="公告.html">公告</a>
+    
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
